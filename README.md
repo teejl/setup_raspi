@@ -16,7 +16,7 @@ This is the file that has all the good stuff in it; the brains of the operation.
 ## Procedure for Initializing Raspberry Pi
 Follow the steps carefully and enjoy:
 
-**0. Move to the desired directory. 
+**0. Move to the desired directory.**
 Note: {directory} is a placeholder for the directory you would like to move into.
 ```shell
 ls
