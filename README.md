@@ -16,7 +16,8 @@ This is the file that has all the good stuff in it; the brains of the operation.
 ## Procedure for Initializing Raspberry Pi
 Follow the steps carefully and enjoy:
 
-**0. Move to the desired directory.**
+**1. Open the terminal and go to the desired directory.**
+
 Note: {directory} is a placeholder for the directory you would like to move into.
 ```shell
 ls
@@ -25,9 +26,25 @@ ls
 cd ..
 ls
 ```
-1. Clone the repo with github to the current directory.
+**2. Clone the repo with github to the current directory.**
+
+Type in the following script to download Git and clone (download) the files to the current directory.
 ```shell
 sudo apt-get install git
 sudo git clone "https://www.github.com/teejl/setup_raspi.git"
 ```
-2. 
+**3. Edit the raspi.init file to your custom settings**
+
+Type in the following command to enter the file and make changes.
+```shell
+sudo nano raspi.init
+```
+make changes. then type ctrl + x to exit and y to save.
+
+**4. Enable and Execute raspi.init**
+
+Type in the following commands to enable the raspi.init file to become executable and execute it. It will take a moment to download everything
+```shell
+sudo chmod u+x raspi.init
+sudo ./raspi.init
+```
