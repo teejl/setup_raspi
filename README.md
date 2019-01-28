@@ -1,4 +1,4 @@
-# A guide for setting up your Raspberry Pi
+# A Guide for Setting Up Your Raspberry Pi
 by TeeJ
 
 ## Introduction
