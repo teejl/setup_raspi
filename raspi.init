@@ -1,6 +1,5 @@
 #!/bin/bash
 
-# Instructions: To make sure you can run this file type "ls -l" an 'x' will inidacte you can run the file
 # enable execute: "sudo chmod u+x {this file path}" # use ls -l to confirm the file has x access
 # execute : "./ {this file path}" # the . usually indicates you are in the directory
 
