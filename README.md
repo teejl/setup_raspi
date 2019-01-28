@@ -10,11 +10,11 @@ You just got a new raspberry pi and do not know how to use it or maybe you just 
 
 I have written down a bunch of useful commands and links to guids in the notes.txt file. Feel free to use them accordingly.
 
-### Raspi.init
+### raspi.init
 
 This is the file that has all the good stuff in it; the brains of the operation. After installing this file you still will not be able to use it. You will first need to enable this file as an executable file. You can do this by using the chmod u+x command. Next you will need to execute the file. Once you execute the file everything will start downloading. And after everything has been downloaded you will still need to enable a few features with raspi-config. Features like vnc, ssh, and the proper screen resolution. Note the difference: Vnc (connecting via a different network) vs ssh (connecting within the same network). For VNC I use VNC Viewer and it seems to work delightfully.
 
-## Procedure for Initializing Raspberry Pi
+## Steps for Initializing Raspberry Pi
 Follow the steps carefully and enjoy:
 
 **1. Open the terminal and go to the desired directory.**
