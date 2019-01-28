@@ -15,15 +15,16 @@ This is the file that has all the good stuff in it; the brains of the operation.
 
 ## Procedure for Initializing Raspberry Pi
 Follow the steps carefully and enjoy:
-0. Move to the desired directory
+
+0. Move to the desired directory. {directory} is a placeholder for the directory you would like to move into.
 ```shell
 ls
-cd {folder}
+cd {directory}
 ls
 cd ..
 ls
 ```
-1. Clone the repo with github to the current directory
+1. Clone the repo with github to the current directory.
 ```shell
 sudo apt-get install git
 sudo git clone "https://www.github.com/teejl/setup_raspi.git"
