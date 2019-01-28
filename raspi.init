@@ -4,15 +4,25 @@
 # enable execute: "sudo chmod u+x {this file path}" # use ls -l to confirm the file has x access
 # execute : "./ {this file path}" # the . usually indicates you are in the directory
 
+echo '~~~ ><> ><> ><> ><> <>< <>< <>< <>< ~~~'
+echo '~~~ Initializing the Raspberry Pi...'
+echo '~~~ ><> ><> ><> ><> <>< <>< <>< <>< ~~~'
+echo
+
+echo 'Updating the Raspberry Pi...'
 # update apt-get
 sudo apt-get update
+echo
 
+echo 'Installing the programs...'
 # install programs
 sudo apt-get install python3
 sudo apt-get install git
 sudo apt-get install ssh
 sudo apt-get install realvnc-vnc-server realvnc-vnc-viewer
+echo
 
+echo 'Installing the python packages...'
 # python 3 packages here
 sudo python3 -m pip install pandas #[~sudo pip3 install pandas (Equivalent syntax)] 
 sudo python3 -m pip install matplotlib
@@ -23,9 +33,15 @@ sudo python3 -m pip install scikit-learn
 sudo python3 -m pip install --user pipenv # more info: https://docs.python-guide.org/dev/virtualenvs/#virtualenvironments-ref
 sudo python3 -m pip install datetime
 sudo python3 -m pip install fix_yahoo_finance
+echo
 
+echo 'Initializing Users...'
 # add user teej
 sudo adduser teej # create user teej
 sudo adduser teej sudo # make teej a sudo user
 # sudo passwd teej # give teej a passwd
+echo 
 
+echo '~~~ ><> ><> ><> ><> <>< <>< <>< <>< ~~~'
+echo '~~~ The Raspberry Pi has been configured!'
+echo '~~~ ><> ><> ><> ><> <>< <>< <>< <>< ~~~'
