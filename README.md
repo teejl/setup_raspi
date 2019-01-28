@@ -56,6 +56,6 @@ Type in the following commands to your terminal.
 ```shell
 sudo raspi-config
 ```
-The Raspberry Pi Software Configuration Tool will come up. Navigate down to "Interfacing Options" and press enter. Enable SSH and VNC. Go back to the Raspberry Pi Software Configuration Tool's home screen and go to "Advanced Options" -> "Resolution" -> {Desired Screen Resolution}.
+The Raspberry Pi Software Configuration Tool will come up. Navigate down to "Interfacing Options" and press enter. Enable SSH and VNC. Go back to the Raspberry Pi Software Configuration Tool's home screen and go to "Advanced Options" -> "Resolution" -> {select your desired screen resolution}.
 
 The Raspberry Pi will reboot, and everything will be configured. Enjoy!
