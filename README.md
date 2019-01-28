@@ -16,7 +16,7 @@ This is the file that has all the good stuff in it; the brains of the operation.
 ## Procedure for Initializing Raspberry Pi
 Follow the steps carefully and enjoy:
 1. Clone the repo with github to the current directory (change directory with cd {folder}, cd .. [use to go back], and ls)
-'''
+'''shell
 sudo apt-get git
 sudo git clone "https://www.github.com/teejl/setup_raspi.git"
 '''
