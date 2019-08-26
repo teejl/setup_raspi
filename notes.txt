@@ -72,7 +72,8 @@
 # CHECK LOG
 # sudo git log
 
-
+# CHANGE HOSTNAME
+# https://blog.jongallant.com/2017/11/raspberrypi-change-hostname/
 
 # --- failed attempt ---
 # https://www.digitalocean.com/community/tutorials/how-to-edit-the-sudoers-file-on-ubuntu-and-centos
