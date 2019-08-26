@@ -8,7 +8,7 @@ You just got a new raspberry pi and do not know how to use it or maybe you just 
 ## Files in Repo:
 ### notes.txt
 
-I have written down a bunch of useful commands and links to guids in the notes.txt file. Feel free to use them accordingly.
+I have written down a bunch of useful commands and links to guides in the notes.txt file. Feel free to check them out.
 
 ### raspi.init
 
